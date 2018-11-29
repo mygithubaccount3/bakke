@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section {
+    height: 300px;
+    position: relative;
+}
+
+.zoom {
+    background: url("https://images.wallpaperscraft.com/image/winter_snow_road_mountains_fog_119908_3840x2160.jpg") no-repeat center center;
+    background-size: cover;
+    /*background-repeat: no-repeat;
+    background-position: center;*/
+    display: block;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    /*-webkit-animation: ;
+    -o-animation: ;*/
+    animation: scale 4s;
+}
+
+.zoom-footer {
+    background-image: url("https://images.wallpaperscraft.com/image/winter_snow_road_mountains_fog_119908_3840x2160.jpg");
+}
+
+@keyframes scale {
+    50% {
+        -webkit-transform:scale(1.2);
+        -moz-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+        -o-transform:scale(1.2);
+        transform:scale(1.2);
+    }
+}
+
+/*
+дома - список*/
